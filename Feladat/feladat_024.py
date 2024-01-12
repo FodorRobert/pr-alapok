@@ -6,8 +6,9 @@ gyumolcsok = []
 gyumolcs = None
 while gyumolcs != '':
     gyumolcs = input('Adj meg egy gyümölcsöt! ')
-if gyumolcs != '':
-    # hozzáfűzi a listahoz
-    gyumolcsok.append(gyumolcs)
+    if gyumolcs != '':
+        # hozzáfűzi a listahoz
+        gyumolcsok.append(gyumolcs)
 
-print(gyumolcsok)  
+print(gyumolcsok)
+print(f"A gyumolcsok lista elemeinek száma: {len(gyumolcsok)}")
